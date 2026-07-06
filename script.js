@@ -1,0 +1,123 @@
+/* ---------- i18n dictionary ---------- */
+const I18N = {
+  ko: {
+    "nav.features": "기능", "nav.usecases": "활용", "nav.pricing": "가격", "nav.get": "다운로드",
+    "hero.badge": "Live Activities · Dynamic Island",
+    "hero.title1": "서버 시간을 항상 화면 위에.", "hero.title2": "다이나믹하게.",
+    "hero.sub": "iOS의 Dynamic Island와 실시간 현황 위젯을 통해 다른 앱과 웹사이트를 사용하는 동안에도 서버 시간을 실시간으로 확인하세요.",
+    "hero.soon": "출시 예정",
+    "hero.meta1": "for iPhone · Apple Watch", "hero.meta2": "무료 다운로드",
+
+    "intro.kicker": "소개",
+    "intro.title": "멀티태스커를 위한 서버 타이머 MilliS",
+    "intro.subtitle": "서버 시간을 항상 화면 위에. 다이나믹하게.",
+    "intro.page1.title": "백그라운드에서 서버 시간을 확인하는 궁극의 도구.",
+    "intro.page1.body": "모바일 환경에서 티켓 예매, 선착순 구매, 수강신청을 위해 서버 시간을 확인하려면 웹페이지와 앱을 벗어나야 합니다. MilliS는 서버 시간을 항상 iPhone 화면에 표시해, 결전의 순간 직전 앱을 전환할 필요 없이 시간을 확인하고 타이밍을 잴 수 있어요.",
+    "intro.page2.title": "다이나믹한 사용자 경험.",
+    "intro.page2.body": "iOS의 Live Activities를 지원하여, Dynamic Island와 잠금 화면에서 서버 시간을 실시간으로 보여줍니다. Pro 유저가 아니여도 Apple Watch에서 실시간 현황 위젯을 지원합니다. 혹여 놓칠세라 배너 알림뿐만 아니라 소리와 진동으로도 알려드립니다.",
+    "intro.page3.title": "1000분의 1초까지 정확하게.",
+    "intro.page3.body": "서버 시간을 주기적으로 자동 보정하니 손수 업데이트하지 않아도 돼요. '광클'에 도움이 되는 지연 시간도 확인해보세요. 목표 시각까지의 카운트다운 모드도 지원합니다.",
+    "intro.page3.note": "Apple의 인터페이스 관리 정책으로 Dynamic Island 등 Live Activities에서 1s 미만의 단위로 서버 시간을 표시할 수 없으며, 연속으로 최대 8시간까지 동작함.",
+    "intro.page4.title": "당신이 원하는 웹사이트는 전부 여기에.",
+    "intro.page4.body": "곧 열리는 티켓팅 웹사이트, 대학교 수강신청 사이트를 북마크에서 찾거나 저장해두세요. 추천 프리셋에는 수백여 곳의 링크가 담겨있습니다. 자주 찾는 곳은 특별히 앱 보관함에 큼직한 위젯으로 배치해보는 것은 어떨까요?",
+    "intro.page5.title": "Pro는 더욱 Pro답게.",
+    "intro.page5.body": "광고 없는 쾌적함을 누리세요. Apple Watch 전용 앱에서 손목 위 서버 시간을 컨트롤하고, 북마크를 무제한으로 추가하고, 더 다양한 단축어 SDK로 창의적인 자동화 루틴을 만들어보세요.",
+
+    "how.kicker": "동작 원리", "how.title": "정확한 서버 시계 알고리즘",
+    "how.sub": "MilliS는 요청 전후 시각을 기록하고 왕복 지연의 절반을 보정한 이후 기기 클럭으로 밀리초를 이어 세고 주기적으로 자동 업데이트합니다.",
+    "how.s1": "요청 직전·직후 시각(t1, t2)을 기록", "how.s2": "응답 Date 헤더 + RTT/2 로 서버 시각 보정", "how.s3": "기기 시계로 ms 단위 추적, 주기적으로 재동기화", "how.err": "추정 오차",
+
+    "use.kicker": "활용", "use.title": "찰나가 결과를 바꾸는 순간.",
+    "use.1.t": "콘서트·공연·스포츠 티켓팅", "use.2.t": "대학교 수강신청", "use.3.t": "선착순 혜택·쇼핑 오픈런", "use.4.t": "인기 식당·숙소·병원 예약",
+
+    "price.kicker": "가격", "price.title": "무료로 시작하세요.", "price.sub": "핵심 기능은 무료. Pro로 한 단계 더.",
+    "price.free.n": "Free", "price.free.1": "서버 시간 · 자동 동기화", "price.free.2": "Dynamic Island · Live Activity", "price.free.3": "위젯 · 카운트다운 모드", "price.free.4": "프리셋 북마크 · 배너 알림", "price.free.5": "광고 포함",
+    "price.pro.tag": "추천", "price.pro.n": "Pro", "price.pro.once": " · 1회 구매",
+    "price.pro.1": "Free의 모든 기능", "price.pro.2": "<b>광고 제거</b>", "price.pro.3": "<b>Apple Watch 앱</b>", "price.pro.4": "<b>북마크 무제한</b>", "price.pro.5": "<b>단축어 SDK · Siri 제어</b>",
+
+    "cta.title": "MilliS, 곧 만나요.", "cta.sub": "App Store 출시를 준비 중입니다.",
+    "footer.privacy": "개인정보처리방침", "footer.terms": "이용약관", "footer.support": "지원 · 문의", "footer.rights": "All rights reserved.",
+    "footer.made": "개발자 may24th", "footer.sponsor": "후원하기 ↗"
+  },
+  en: {
+    "nav.features": "Features", "nav.usecases": "Use cases", "nav.pricing": "Pricing", "nav.get": "Download",
+    "hero.badge": "Live Activities · Dynamic Island",
+    "hero.title1": "Server time, always on screen.", "hero.title2": "Dynamically.",
+    "hero.sub": "See server time in real time through the Dynamic Island and live status widgets — even while you're using other apps and websites.",
+    "hero.soon": "Coming soon",
+    "hero.meta1": "for iPhone · Apple Watch", "hero.meta2": "Free download",
+
+    "intro.kicker": "Overview",
+    "intro.title": "MilliS — the server timer for multitaskers",
+    "intro.subtitle": "Server time, always on screen. Dynamically.",
+    "intro.page1.title": "The ultimate way to watch server time from the background.",
+    "intro.page1.body": "On mobile, checking server time for ticketing, first-come drops, or course registration means leaving the page or app you're in. MilliS keeps the server time on your iPhone screen at all times — so at the decisive moment you can check the time and nail your timing without ever switching apps.",
+    "intro.page2.title": "A dynamic experience.",
+    "intro.page2.body": "With iOS Live Activities, server time streams live in the Dynamic Island and on the Lock Screen. A live status widget on Apple Watch works even without Pro. And so you never miss it, MilliS alerts you with banner notifications plus sound and haptics.",
+    "intro.page3.title": "Accurate to the millisecond.",
+    "intro.page3.body": "Server time is re-synced automatically on a schedule, so there's nothing to update by hand. Check the latency reading that helps you win the tap race, and use countdown mode to a target time.",
+    "intro.page3.note": "Due to Apple's interface policies, Live Activities such as the Dynamic Island cannot display server time below 1-second granularity, and run for up to 8 hours continuously.",
+    "intro.page4.title": "Every site you want, all in one place.",
+    "intro.page4.body": "Find or save upcoming ticketing sites and university course-registration pages in your bookmarks. The recommended presets include hundreds of links. For the ones you visit most, why not place a big widget in your App Library?",
+    "intro.page5.title": "Pro, made even more Pro.",
+    "intro.page5.body": "Enjoy an ad-free experience. Control server time on your wrist with the dedicated Apple Watch app, add unlimited bookmarks, and build creative automation routines with a richer Shortcuts SDK.",
+
+    "how.kicker": "How it works", "how.title": "A precise server-clock algorithm",
+    "how.sub": "MilliS records the time before and after the request and corrects for half the round trip, then keeps counting milliseconds on the device clock and re-syncs automatically on a schedule.",
+    "how.s1": "Record time just before / after the request (t1, t2)", "how.s2": "Correct with response Date header + RTT/2", "how.s3": "Track ms on device clock, re-sync periodically", "how.err": "Estimated error",
+
+    "use.kicker": "Use cases", "use.title": "The instant a split second changes everything.",
+    "use.1.t": "Concert · show · sports ticketing", "use.2.t": "University course registration", "use.3.t": "First-come perks · shopping drops", "use.4.t": "Restaurant · stay · clinic reservations",
+
+    "price.kicker": "Pricing", "price.title": "Start for free.", "price.sub": "Core features free. Go further with Pro.",
+    "price.free.n": "Free", "price.free.1": "Server time · auto-sync", "price.free.2": "Dynamic Island · Live Activity", "price.free.3": "Widget · countdown mode", "price.free.4": "Preset bookmarks · banner alerts", "price.free.5": "Contains ads",
+    "price.pro.tag": "Popular", "price.pro.n": "Pro", "price.pro.once": " · one-time",
+    "price.pro.1": "Everything in Free", "price.pro.2": "<b>Remove ads</b>", "price.pro.3": "<b>Apple Watch app</b>", "price.pro.4": "<b>Unlimited bookmarks</b>", "price.pro.5": "<b>Shortcuts SDK · Siri control</b>",
+
+    "cta.title": "MilliS, coming soon.", "cta.sub": "Preparing for the App Store.",
+    "footer.privacy": "Privacy Policy", "footer.terms": "Terms of Service", "footer.support": "Support · Contact", "footer.rights": "All rights reserved.",
+    "footer.made": "Developer may24th", "footer.sponsor": "Buy me a coffee ↗"
+  }
+};
+
+function setLang(lang) {
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    const val = I18N[lang][key];
+    if (val != null) el.innerHTML = val;
+  });
+  document.querySelectorAll(".lang__opt").forEach(o =>
+    o.classList.toggle("is-active", o.dataset.lang === lang)
+  );
+  try { localStorage.setItem("millis-lang", lang); } catch (e) {}
+}
+
+document.getElementById("langToggle").addEventListener("click", () => {
+  const next = document.documentElement.lang === "ko" ? "en" : "ko";
+  setLang(next);
+});
+
+/* restore saved / browser language */
+(function () {
+  let saved;
+  try { saved = localStorage.getItem("millis-lang"); } catch (e) {}
+  const initial = saved || (navigator.language.startsWith("ko") ? "ko" : "en");
+  if (initial === "en") setLang("en");
+})();
+
+/* ---------- live ticking clock (how-it-works readout) ---------- */
+const howNum = document.getElementById("howClock");
+const OFFSET = 418; // simulated server offset (ms)
+
+function tick() {
+  if (howNum) {
+    const jitter = OFFSET + Math.round(Math.sin(Date.now() / 400) * 6);
+    howNum.textContent = "+" + (jitter / 1000).toFixed(3);
+  }
+  requestAnimationFrame(tick);
+}
+requestAnimationFrame(tick);
+
+/* footer year */
+document.getElementById("year").textContent = new Date().getFullYear();

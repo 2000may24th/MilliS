@@ -6,7 +6,7 @@ const I18N = {
     "hero.title1": "서버 시간을 항상 화면 위에.", "hero.title2": "다이나믹하게.",
     "hero.sub": "iOS의 Dynamic Island와 실시간 현황 위젯을 통해 다른 앱과 웹사이트를 사용하는 동안에도 서버 시간을 실시간으로 확인하세요.",
     "hero.soon": "출시 예정",
-    "hero.meta1": "for iPhone · Apple Watch", "hero.meta2": "무료 다운로드",
+    "hero.meta1": "for iPhone · iPad · Apple Watch", "hero.meta2": "무료 다운로드",
 
     "intro.kicker": "소개",
     "intro.title": "멀티태스커를 위한 서버 타이머 MilliS",
@@ -46,7 +46,7 @@ const I18N = {
     "hero.title1": "Server time, always on screen.", "hero.title2": "Dynamically.",
     "hero.sub": "See server time in real time through the Dynamic Island and live status widgets — even while you're using other apps and websites.",
     "hero.soon": "Coming soon",
-    "hero.meta1": "for iPhone · Apple Watch", "hero.meta2": "Free download",
+    "hero.meta1": "for iPhone · iPad · Apple Watch", "hero.meta2": "Free download",
 
     "intro.kicker": "Overview",
     "intro.title": "MilliS — the server timer for multitaskers",

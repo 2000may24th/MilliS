@@ -53,7 +53,7 @@ const I18N = {
     "intro.subtitle": "Server time, always on screen. Dynamically.",
     "intro.page1.title": "The ultimate way to watch server time from the background.",
     "intro.page1.body": "On mobile, checking server time for ticketing, first-come drops, or course registration means leaving the page or app you're in. MilliS keeps the server time on your iPhone screen at all times — so at the decisive moment you can check the time and nail your timing without ever switching apps.",
-    "intro.page1.note": "In iPadOS, some features(including Dynamic Island) are limited."
+    "intro.page1.note": "In iPadOS, some features(including Dynamic Island) are limited.",
     "intro.page2.title": "A dynamic experience.",
     "intro.page2.body": "With iOS Live Activities, server time streams live in the Dynamic Island and on the Lock Screen. A live status widget on Apple Watch works even without Pro. And so you never miss it, MilliS alerts you with banner notifications plus sound and haptics.",
     "intro.page3.title": "Accurate to the millisecond.",
